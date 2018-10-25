@@ -24,5 +24,5 @@ $(function(){
 	})
 });
 function abrirFinal() {
-	window.location.href = "final/imagem.html";
+	window.location.href = "imagem.html";
 }
