@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="urf-8">
+        <title>{{title | upper}}</title>
+    </head>
+    <body>
+        <h1>Olá minha primeira view do Django</h1>
+        <p>{{paragrafo1}}</p>
+        <p>{{paragrafo2}}</p>
+        
+        {% for item in alunos %}
+            {{item}}
+        {% endfor %}
+
+        <ul>    
+            {% for item in alunos %}
+                <li>{{item}} - Posiçao: {{forloop.counter}}</li>
+            {% endfor %}
+        </ul>
+
+        <ul>    
+            {% for item in alunos2 %}
+                <li>{{item}} - Posiçao: {{forloop.counter}}</li>
+                {% empty %}
+                <li>Lista vazia</li>
+            {% endfor %}
+        </ul>
+
+        {% if condicao1 %}
+            Entrei no bloco if.
+        {% elif condicao2 %}
+            Entrei no bloco elif.
+        {% else %}
+            Entrei no bloco else.
+        {% endif %}
+    <ul>
+        {% for item in lista %}
+            <li>{{item}}</li>
+            {% if forloop.last %}
+                <li>Aqui termina a lista.</li>
+            {% endif %}
+        
+
+            {%empty%}
+                <li>Lista Vazia</li>
+        {% endfor %}
+    </ul>
+    </body>
+</html>
