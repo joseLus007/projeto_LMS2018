@@ -1,0 +1,9 @@
+body{
+    background-image: url(../imagens/imagem6.jpg) ;
+    background-repeat:no-repeat; 
+    background-attachment:fixed; 
+    background-position: center;
+    background-size:cover ;
+    font-size: 17px;
+    font-weight: 900;
+}
