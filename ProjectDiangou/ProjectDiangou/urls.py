@@ -21,4 +21,5 @@ from core.views import *
 urlpatterns = [
     path('',index),
     path('admin/', admin.site.urls),
+    path('',paginalogin),
 ]
