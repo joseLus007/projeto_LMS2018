@@ -1,0 +1,12 @@
+
+body{
+    font-family: 'Calibri', serif;
+    
+}
+.capsula{
+    position: relative;
+    color: blue;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+
+}
