@@ -2,7 +2,8 @@
     <head>
         <meta charset="UTF-8">
         <title>FIT-Faculdade Impacta Tecnologia</title>
-        <link rel="stylesheet" href="Estilos/styles.css">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'styles.css' %}" />
     </head>
     <body>
         <form action="index.html" name="form" id="formulario" method="POST">
@@ -14,6 +15,6 @@
                 <input type="submit" name="next" class="acao" value="Proximo" onclick="abrirOutraPag()"/>
             </fieldset>
         </form>
-        <script type="text/javascript" src="Scripts/main.js"></script>
+        <script type="text/javascript" src="{% static 'mainlogin.js' %}"></script>
     </body>
 </html>

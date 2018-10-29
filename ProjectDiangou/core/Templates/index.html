@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Impacta</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="Estilos\maininicial.css" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'maininicial.css' %}" />
     <!--<script src="main.js" defer></script>-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Roboto+Slab" rel="stylesheet">
@@ -14,7 +15,7 @@
 
 <body>
     <button type="submit" onclick="abrirOutraPag()">LOGIN</button>
-    <img src="Estilos\fundao2.png" alt="logo" width="20%" height="10%">
-    <script type="text/javascript" src="Scripts\maininicial.js"></script>
+    <img src="{% static 'fundao2.png' %}" alt="logo" width="20%" height="10%">
+    <script type="text/javascript" src="{% static 'maininicial.js' %}"></script>
 </body>
 </html>
