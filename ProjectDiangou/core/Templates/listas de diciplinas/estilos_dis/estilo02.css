@@ -1,0 +1,20 @@
+body{
+    background-image: url(../../imagens/imagem6.jpg);
+    color: aliceblue;
+}
+.div1{
+    float: left;
+    width: 200px;
+    border: red solid 1px;
+    text-align: center;
+}
+.div2{
+    float: left;
+    width: 200px;
+    border: red solid 1px;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+.div3{
+    border: red solid 1px;
+}
