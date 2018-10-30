@@ -15,3 +15,5 @@ def index(request):
         'lista': [1,2,3,4,5]
     }
     return render(request,"index.html",context)
+def paginalogin(request):
+        return render (request,'paginalogin')
