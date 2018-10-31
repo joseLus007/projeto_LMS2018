@@ -1,20 +1,34 @@
 body{
-    background-image: url(../../imagens/imagem6.jpg);
-    color: aliceblue;
+    font-family: 'PT Sans', sans-serif;
+    color: #FFFFFF;
+    line-height: 1.6;/* espaço em cada linha */
+    background-image: url(../../imagens/imagem5.jpg);
+    background-repeat: no-repeat;/*para nao repetir a imagem */
+    background-attachment: fixed;/*para fixar imagem e sem modificações da imagem*/
+    /* background-position: center; */
+    background-size:cover ;/*para deixar toda imagem ocupar a pagina html*/
 }
-.div1{
-    float: left;
-    width: 200px;
-    border: red solid 1px;
+nav{    
+    border: 1px solid #708090;
+    margin-bottom:20px;/*define o espaço ocupado pela margem*/
+    margin-right:10px;
+    padding:10px ; /*define a separasao das letras das bordas*/
+}
+h1{
+    margin:0;
     text-align: center;
 }
-.div2{
-    float: left;
-    width: 200px;
-    border: red solid 1px;
-    text-align: center;
-    padding: 0px 10px 0px 10px;
+header{
+    font-weight: bold;
+    color: #124fc2e1;
 }
-.div3{
-    border: red solid 1px;
+a{
+    color: #FFFFFF;
+    font-weight: bold;/*deixa o texto em negrilho*/
+    text-decoration: none;/*elemina o sublinado*/
 }
+a :hover{
+    border-color:#000080;
+    background-color: #1250c25e;
+}
+
