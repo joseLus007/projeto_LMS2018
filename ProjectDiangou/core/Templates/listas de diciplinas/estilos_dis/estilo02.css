@@ -7,28 +7,43 @@ body{
     background-attachment: fixed;/*para fixar imagem e sem modificações da imagem*/
     /* background-position: center; */
     background-size:cover ;/*para deixar toda imagem ocupar a pagina html*/
+   
 }
-nav{    
-    border: 1px solid #708090;
-    margin-bottom:20px;/*define o espaço ocupado pela margem*/
-    margin-right:10px;
-    padding:10px ; /*define a separasao das letras das bordas*/
+nav{
+    text-align: center;
+    padding: 10px;
+    margin-top: 0;    
+    border: 2px solid #708090;
+    margin:10px;/*define o espaço ocupado pela margem*/
+    /*define a separasao das letras das bordas*/
+    
 }
 h1{
     margin:0;
     text-align: center;
+    color: #124fc2e1;
+    text-decoration: #124fc2e1; 
 }
 header{
-    font-weight: bold;
+    font-weight: bold;/*deixa o texto em negrilho*/
     color: #124fc2e1;
+    margin-left: 32px;
+    font-size: 20px;
 }
 a{
     color: #FFFFFF;
     font-weight: bold;/*deixa o texto em negrilho*/
     text-decoration: none;/*elemina o sublinado*/
+    width: 300px;
+    margin: 20px;
+    display: inline-block;/*deixa alinhado na horizontal*/
+   
+    
+    
 }
 a :hover{
-    border-color:#000080;
+    border-color:#06065cad;
     background-color: #1250c25e;
+    color: black;
 }
 
