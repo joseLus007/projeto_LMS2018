@@ -5,15 +5,9 @@ from django.http import HttpResponse
 
 def index(request):
     context = {
-        'title': 'E-Commerce FIT',
-        'paragrafo1': 'Primeiro parágrafo aqui',
-        'paragrafo2': 'Segundo parágrafo aqui',
-        'alunos': ['Ricardo','Marco','Marco Chocolate','Kleverson','Predo'],
-        'alunos2': [],
-        'condicao1': True,
-        'condicao2': False,
-        'lista': [1,2,3,4,5]
+        'title': 'FIT - Faculdade Impacta Tecnologia',
     }
     return render(request,"index.html",context)
+    
 def paginalogin (request):
         return render (request,'paginalogin.html')
