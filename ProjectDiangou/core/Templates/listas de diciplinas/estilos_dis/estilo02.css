@@ -10,16 +10,20 @@ body{
    
 }
 nav{
+    font-size: 17px;
+    color: #FFFFFF;
     text-align: center;
     padding: 10px;
-    margin-top: 0;    
+    display: inline-block;/*deixa alinhado na horizontal*/
+    text-decoration: none;/*elemina o sublinado*/
+    width: 300px;
     border: 2px solid #708090;
     margin:10px;/*define o espaço ocupado pela margem*/
     /*define a separasao das letras das bordas*/
     
 }
 h1{
-    margin:0;
+    
     text-align: center;
     text-decoration: #124fc2e1; 
 }
@@ -29,17 +33,6 @@ header{
     text-align: center;
     font-size: 20px;
     width: 200px;
-}
-a{
-    color: #FFFFFF;
-    font-size: 17px;
-    text-decoration: none;/*elemina o sublinado*/
-    width: 300px;
-    margin: 20px;
-    display: inline-block;/*deixa alinhado na horizontal*/
-   
-    
-    
 }
 a :hover{
     border-color:#06065cad;
