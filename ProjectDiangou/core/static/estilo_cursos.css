@@ -2,7 +2,7 @@ body{
     font-family: 'PT Sans', sans-serif;
     color: #FFFFFF;
     line-height: 1.6;/* espaço em cada linha */
-    background-image: url(../../imagens/imagem5.jpg);
+    background-image: url(imagens/imagem5.jpg);
     background-repeat: no-repeat;/*para nao repetir a imagem */
     background-attachment: fixed;/*para fixar imagem e sem modificações da imagem*/
     /* background-position: center; */
@@ -16,7 +16,7 @@ nav{
     padding: 10px;
     display: inline-block;/*deixa alinhado na horizontal*/
     text-decoration: none;/*elemina o sublinado*/
-    width: 300px;
+    width: 350px;
     border: 2px solid #708090;
     margin:10px;/*define o espaço ocupado pela margem*/
     /*define a separasao das letras das bordas*/
