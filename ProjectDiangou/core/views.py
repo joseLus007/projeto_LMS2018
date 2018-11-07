@@ -10,4 +10,7 @@ def index(request):
     return render(request,"index.html",context)
     
 def paginalogin (request):
-        return render (request,'paginalogin.html')
+    return render(request,'paginalogin.html')
+
+def cursos(request):
+        return render(request,'cursos.html')

@@ -20,4 +20,6 @@ from core.views import *
 urlpatterns = [
     path('',index),
     path('paginalogin',paginalogin),
+    path('cursos',cursos),
+    
 ]
